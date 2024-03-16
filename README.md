@@ -43,7 +43,7 @@ Laravel new laravel10-qrcode-generator
     $qrCodes['styleDot'] = 
     QrCode::size(150)->style('dot')->generate('https://minhazulmin.github.io/');
     $qrCodes['styleSquare'] = QrCode::size(150)->style('square')->generate('https://minhazulmin.github.io/');
-    $qrCodes['styleRound' = QrCode::size(150)->style('round')->generate('https://minhazulmin.github.io/');
+    $qrCodes['styleRound'] = QrCode::size(150)->style('round')->generate('https://minhazulmin.github.io/');
 
     return view('qrcode',$qrCodes);
 
