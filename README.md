@@ -37,6 +37,11 @@ Laravel new laravel10-qrcode-generator
  public function qrcode()
 ```
 **[Step - 7]** **Copy Code and paste on function:** 
+
+use it on the top of the class name
+```bash
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
+```
 ```bash
     $qrCodes = [];
     $qrCodes['simple'] = 
